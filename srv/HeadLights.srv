@@ -1,0 +1,7 @@
+# Request
+bool on_off 
+string color 
+---
+# Response
+bool result
+string debug_msg 

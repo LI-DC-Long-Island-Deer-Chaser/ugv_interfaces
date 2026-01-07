@@ -1,0 +1,3 @@
+int8 battery_percent
+int8 wifi_strength
+bool deter

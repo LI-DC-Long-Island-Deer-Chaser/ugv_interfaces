@@ -1,0 +1,8 @@
+# Request
+bool on_off 
+string color
+int8 led_num 
+---
+# Response
+bool result
+string debug_msg 

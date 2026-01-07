@@ -10,8 +10,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-    "action/BlinkLights.action"
-    "action/PlaySpeakers.action"
+  "msg/UgvStatus.msg"
+  "srv/StripLights.srv"
+  "srv/HeadLights.srv"
+  "srv/GlowLights.srv"
+  "action/BlinkLights.action"
+  "action/PlaySpeakers.action"
 )
 
 if(BUILD_TESTING)
