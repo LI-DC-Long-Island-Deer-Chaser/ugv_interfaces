@@ -1,7 +1,7 @@
 # Request
-bool on_off 
-string color 
+bool on_off
+string color
 ---
 # Response
 bool result
-string debug_msg 
+string debug_msg

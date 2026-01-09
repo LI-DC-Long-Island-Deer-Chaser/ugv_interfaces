@@ -1,8 +1,6 @@
-# Request
-bool on_off 
+bool on_off
 string color
-int8 led_num 
+int8 led_num
 ---
-# Response
 bool result
-string debug_msg 
+string debug_msg
