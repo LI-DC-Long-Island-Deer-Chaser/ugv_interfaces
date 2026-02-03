@@ -1,5 +1,4 @@
 #Request
-bool on_off
 int8 brightness
 ---
 #Response

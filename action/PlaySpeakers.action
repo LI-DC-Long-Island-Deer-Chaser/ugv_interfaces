@@ -1,6 +1,5 @@
 # Request
 # {0 - deter, 1 - SOS (low battery)}
-int8 type
 ---
 # Response
 bool finished
