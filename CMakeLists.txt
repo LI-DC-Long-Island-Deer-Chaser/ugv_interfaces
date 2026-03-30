@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UgvStatus.msg"
+  "msg/YoloStatus.msg"
   "srv/StripLights.srv"
   "srv/HeadLights.srv"
   "srv/GlowLights.srv"
