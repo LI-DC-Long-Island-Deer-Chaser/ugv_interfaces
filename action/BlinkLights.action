@@ -1,13 +1,6 @@
 # Request
-# float64 rate
 float64 duration
 string color
-
-# nowadays these request fields seem unused
-
-# bool striplights
-# bool headlights
-# bool glowlights
 ---
 # Response
 bool finished
