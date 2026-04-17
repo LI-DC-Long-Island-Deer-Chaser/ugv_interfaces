@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GlowLights.srv"
   "action/BlinkLights.action"
   "action/PlaySpeakers.action"
+  "msg/SerialData.msg"
+  "srv/SerialWrite.srv"
 )
 
 if(BUILD_TESTING)
